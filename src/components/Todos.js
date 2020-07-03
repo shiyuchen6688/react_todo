@@ -3,11 +3,10 @@ import React from "react";
 
 class Todos extends React.Component {
     render() {
-        return (
-            <div>
-                <h1>Todos</h1>
-            </div>
-        )
+        console.log(this.props.todos);
+        return this.props.todos.map((todo) => (
+            <h3>{todo.title}</h3>
+        ));
     }
 }
 
