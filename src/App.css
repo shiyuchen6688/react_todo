@@ -12,3 +12,7 @@ body {
 a {
   color: #333;
 }
+
+.container {
+  padding: 0 1rem;
+}
